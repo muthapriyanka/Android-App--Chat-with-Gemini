@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText Input;
     private TextView Output;
     private ScrollView scrollView;
-    private static final String API_KEY = "AIzaSyAkP_c2dBSggI6NqzIlvOd6Af5uzHECw4k";
+    private static final String API_KEY = "";
     private static final String API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + API_KEY;
 
     @Override
